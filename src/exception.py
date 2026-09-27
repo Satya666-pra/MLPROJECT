@@ -19,9 +19,9 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 # to test src/exception.py
-if __name__=="__main__":
+"""if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:
         logging.info(error_message_detail(e, sys))
-        raise CustomException(e,sys)
+        raise CustomException(e,sys)"""
